@@ -235,6 +235,8 @@ a:hover {
   align-items: center;
 }
 .but-left-s {
+  opacity: 20%;
+  background-color: #224256;
   width: 43px;
   height: 43px;
   margin: 5px;
@@ -245,6 +247,8 @@ a:hover {
   -o-border-radius: 50%;
 }
 .but-right-s {
+  opacity: 20%;
+  background-color: #224256;
   width: 43px;
   height: 43px;
   margin: 5px;
@@ -273,7 +277,7 @@ a:hover {
 .slider-wrap {
   border-radius: 20px;
   margin: 15px;
-  width: 500px;
+  width: 450px;
   height: 350px;
   background-color: #fff;
 }
@@ -293,7 +297,7 @@ a:hover {
   margin: 10px 5px 20px 0px;
 }
 .slider__button {
-  margin: 100px 100px 10px 10px;
+  margin: 50px 50px 10px 10px;
 }
 .button-slider {
 }
@@ -362,6 +366,8 @@ a:hover {
   flex-wrap: wrap;
 }
 .but-left-u {
+  opacity: 20%;
+  background-color: #224256;
   width: 43px;
   height: 43px;
   margin: 5px;
@@ -372,6 +378,8 @@ a:hover {
   -o-border-radius: 50%;
 }
 .but-right-u {
+  opacity: 20%;
+  background-color: #224256;
   width: 43px;
   height: 43px;
   margin: 5px;
@@ -396,22 +404,30 @@ a:hover {
   padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: stretch;
+  justify-content: strectch;
   align-items: center;
 }
 .uslugy__text {
+  margin: 5px;
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: stretch;
+  justify-content: strectch;
   align-items: center;
 }
 .text__title {
   padding: 5px;
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
 }
 .text__subtitle {
+  display: flex;
   padding: 5px;
+  justify-content: center;
+  align-items: center;
 }
 .uslugy__button {
 }
@@ -468,6 +484,14 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   margin: 20px;
+}
+.text__inf {
+  text-indent: 15px;
+  font-size: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .text__img-i {
   display: flex;
@@ -654,4 +678,23 @@ a:hover {
 }
 .footer-bot__text {
   color: #fff;
+}
+.email-footer {
+  font-size: 20px;
+  list-style: none;
+  color: #fff;
+  text-decoration: none;
+}
+.infa__text-f {
+  display: flex;
+  flex-direction: column;
+}
+.socseti__item {
+  margin-right: 20px;
+  background-color: #fff;
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
 }
