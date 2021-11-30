@@ -313,6 +313,7 @@ a:hover {
 .slider__subtitle {
 }
 .button-slider {
+  cursor: pointer;
 }
 .slider-img {
   margin: 10px 0 10px 30px;
@@ -439,6 +440,7 @@ a:hover {
   align-items: center;
 }
 .uslugy__button {
+  cursor: pointer;
 }
 .uslugy__but-right {
   height: 100%;
@@ -650,8 +652,8 @@ a:hover {
   margin: 5px;
   height: 100%;
   width: 100%;
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
 }
 .galary__link {
   height: 100%;
@@ -792,6 +794,7 @@ a:hover {
   height: 100%;
 }
 .write__button-f {
+  cursor: pointer;
   margin-left: 200px;
   margin-top: 15px;
 }
