@@ -89,14 +89,14 @@ a:hover {
 .header__container-1 {
   overflow: hidden;
   height: 100%;
-  width: 85%;
+  width: 80%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 .header__container-2 {
   overflow: hidden;
-  width: 85%;
+  width: 80%;
   height: 100%;
   display: flex;
   justify-content: space-around;
@@ -195,7 +195,7 @@ a:hover {
 .container__nav {
   overflow: hidden;
   height: 100%;
-  width: 87%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
