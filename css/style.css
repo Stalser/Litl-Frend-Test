@@ -581,32 +581,37 @@ a:hover {
 /*------------------------------------------------------------------------------*/
 .galary {
   overflow: hidden;
-  height: 620px;
+  height: 100%;
   width: 100%;
 }
 .container__galary {
+  overflow: hidden;
   height: 100%;
   width: 90%;
+}
+.galary__block {
   overflow: hidden;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 .galary__list {
+  overflow: auto;
   height: 100%;
   width: 100%;
   display: flex;
   justify-content: space-around;
-  align-items: center;
   flex-wrap: wrap;
 }
 .galary__item {
+  overflow: hidden;
+  margin: 5px;
   height: 100%;
   width: 100%;
-  margin: 5px;
-  overflow: hidden;
-  height: 300px;
-  width: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 400px;
+  width: 400px;
 }
 .galary__link {
   height: 100%;
@@ -620,11 +625,13 @@ a:hover {
 
 /*-----------------------------------------------------------------------------*/
 .container__footer {
+  height: 100%;
+  width: 100%;
   display: flex;
   justify-content: space-around;
 }
 .footer {
-  height: 400px;
+  height: 100%;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -697,17 +704,22 @@ a:hover {
 
 /*------------------------------------*/
 .container__footer-bot {
+  height: 100%;
+  width: 100%;
 }
 .footer {
+  margin-top: 20px;
+  height: 40%;
+  width: 100%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .footer-bot {
-  height: 30px;
+  height: 2%;
   width: 100%;
   background-color: #224256;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .footer-bot__text {
@@ -731,4 +743,8 @@ a:hover {
   -moz-border-radius: 10%;
   -ms-border-radius: 10%;
   -o-border-radius: 10%;
+}
+#inp-f {
+  width: 100%;
+  height: 100%;
 }
