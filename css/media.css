@@ -36,6 +36,8 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .header__container-1 {
     margin: 0;

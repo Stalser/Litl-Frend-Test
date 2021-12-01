@@ -3,13 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=1300" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="shorcut icon" href="img/img_logo/logo_shortcut.png" type="image/png">
     <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/media.css" />
+    <!-- <link rel="stylesheet" href="css/media.css" /> -->
     <link rel="stylesheet" href="css/style.css" />
     <title>Маленький друг</title>
   </head>
@@ -508,8 +507,8 @@
       <footer class="footer">
         <div class="container container__footer">
           <div class="inf__text-f">
-                    <div class="contact__title">Контакты:</div>
-                    <div class="contact__adress">
+                    <div class="contact__title-f">Контакты:</div>
+                    <div class="contact__adress-f">
                       Aдрес: Окская область, город Город, проезд Ленина, 1-б<br />Телефон:+7
                       (499) 001-00-00,<br />
                       +7 (499) 002-00-00<br /><a class="email-footer" href="mailto:E-mail: test@mail.ru"
@@ -576,37 +575,29 @@
                       </li>
                     </ul>
                 </div>
-              
                <div class="write">
                   <form class="write__form">
                     <div class="write__title">Напишите нам!</div>
-                    <div class="input-name"><br>
+                    <div class="input-f">
+                      <input
+                      class="name"
+                        type="text"
+                        placeholder="Фамилия Имя Отчество"
+                      />
+                    </div>
+                    <div class="input-f">
                       <input
                         class="name"
-                        type="text"
-                        name="text"
-                        placeholder="Фамилия Имя Отчество"
-                        id="inp-f"
-                      />
-                    </div><br>
-                    <div class="input-email">
-                      <input
-                        class="email"
                         type="email"
                         placeholder="Ваша электронная почта"
-                        name="text"
-                        id="inp-f"
+                        required
                       />
-                    </div><br>
-                    <div class="input-text">
-                      <input
-                        class="text"
+                    </div>
+                    <div class="input-f">
+                     <textarea class="name-t"
                         type="text"
-                        name="text"
-                        id="inp-f"
-                        placeholder="Текст вашего сообщения"
-                      />
-                    </div><br>
+                        placeholder="Текст вашего сообщения" required name="" id="" cols="30" rows="10"></textarea>
+                    </div>
                       <div class="input-radio">
                         <input class="radio" type="radio" name="chek" id="" /><a
                           class="input__link-f"
