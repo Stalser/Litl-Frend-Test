@@ -9,10 +9,6 @@ html {
   padding: 0;
   margin: 0;
 }
-body {
-  min-height: 1000px;
-  min-width: 1300px;
-}
 
 ul,
 li {
@@ -47,7 +43,7 @@ p {
   overflow: hidden;
   width: 95%;
   max-width: 1700px;
-  padding: 0px 6px;
+  padding: 0px 15px;
   margin: 0 auto;
 }
 
@@ -164,12 +160,13 @@ a:hover {
 .search {
   overflow: hidden;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
 }
 .search__text {
+  margin-left: 50px;
   width: 100%;
   height: 45px;
 }
@@ -717,7 +714,7 @@ a:hover {
   overflow: hidden;
   font-size: 20px;
   padding: 5px;
-  height: 100%;
+  height: 80%;
   width: 35%;
   display: flex;
   flex-direction: column;
@@ -725,6 +722,7 @@ a:hover {
   align-items: flex-start;
 }
 .contact__title-f {
+  font-size: 30px;
 }
 .contact__adress-f {
 }
@@ -760,15 +758,15 @@ a:hover {
 .help {
   overflow: hidden;
   font-size: 20px;
-  height: 100%;
+  height: 80%;
   width: 25%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
 }
-
 .help__title {
+  font-size: 30px;
 }
 .help__list {
 }
@@ -787,7 +785,7 @@ a:hover {
 .write {
   overflow: hidden;
   font-size: 20px;
-  height: 100%;
+  height: 80%;
   width: 40%;
   display: flex;
   flex-direction: column;
@@ -803,6 +801,7 @@ a:hover {
   height: 100%;
 }
 .write__title {
+  font-size: 30px;
 }
 .input-f {
   margin: 5px;
@@ -854,7 +853,7 @@ a:hover {
 .container__footer-bot {
   overflow: hidden;
   height: 100%;
-  width: 100%;
+  width: 90%;
 }
 .footer-bot__text {
   display: flex;
