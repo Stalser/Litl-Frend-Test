@@ -1,105 +1,42 @@
 @media (max-width: 1200px) {
   .container {
-    max-width: 970px;
+    max-width: 1024px;
+    flex-wrap: wrap;
+    display: flex;
   }
-  .header__container-1 {
-    max-width: 970px;
+  .header__item {
+    font-size: 15px;
   }
-  .header__container-2 {
-    max-width: 970px;
+  .contact__phone {
+    display: none;
   }
-  .header__container__nav {
-    max-width: 970px;
+  .contact__text {
+    display: none;
   }
-  .container__slider {
-    max-width: 970px;
+  .search {
+    display: none;
   }
-  .container__uslugy {
-    max-width: 970px;
+  .search__text {
+    display: none;
   }
-  .container__info {
-    max-width: 970px;
-  }
-  .container__foto-razdel {
-    max-width: 970px;
-  }
-  .container__galary {
-    max-width: 970px;
-  }
-  .container__footer {
-    max-width: 970px;
-  }
-  .container__footer-bot {
-    max-width: 970px;
+  .nav__link {
+    display: none;
   }
 }
 @media (max-width: 990px) {
   .container {
-    max-width: 750px;
+    max-width: 990px;
+    flex-wrap: wrap;
   }
-  .header__container-1 {
-    max-width: 750px;
-  }
-  .header__container-2 {
-    max-width: 750px;
-  }
-  .header__container__nav {
-    max-width: 750px;
-  }
-  .container__slider {
-    max-width: 750px;
-  }
-  .container__uslugy {
-    max-width: 750px;
-  }
-  .container__info {
-    max-width: 750px;
-  }
-  .container__foto-razdel {
-    max-width: 750px;
-  }
-  .container__galary {
-    max-width: 750px;
-  }
-  .container__footer {
-    max-width: 750px;
-  }
-  .container__footer-bot {
-    max-width: 750px;
+  .header__item {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 @media (max-width: 768px) {
   .container {
+    width: 100%;
     max-width: none;
-  }
-  .header__container-1 {
-    max-width: none;
-  }
-  .header__container-2 {
-    max-width: none;
-  }
-  .header__container__nav {
-    max-width: none;
-  }
-  .container__slider {
-    max-width: none;
-  }
-  .container__uslugy {
-    max-width: none;
-  }
-  .container__info {
-    max-width: none;
-  }
-  .container__foto-razdel {
-    max-width: none;
-  }
-  .container__galary {
-    max-width: none;
-  }
-  .container__footer {
-    max-width: none;
-  }
-  .container__footer-bot {
-    max-width: none;
+    flex-wrap: wrap;
   }
 }

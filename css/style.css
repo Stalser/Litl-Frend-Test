@@ -79,9 +79,9 @@ a:hover {
 .header__container-1 {
   overflow: hidden;
   height: 100%;
-  width: 80%;
+  width: 85%;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
 }
 .header__item {
@@ -113,24 +113,24 @@ a:hover {
   justify-content: space-between;
 }
 .header__container-2 {
+  position: relative;
   overflow: hidden;
-  width: 80%;
+  width: 85%;
   height: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 .logo {
-  width: 100%;
-  height: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 .logo__pic {
   overflow: hidden;
-  height: 90px;
-  width: 90px;
+  height: 60px;
+  width: 60px;
 }
 .logo__link {
   overflow: hidden;
@@ -158,12 +158,9 @@ a:hover {
   font-size: 18px;
 }
 .search {
-  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
 }
 .search__text {
   margin-left: 50px;
@@ -171,8 +168,6 @@ a:hover {
   height: 45px;
 }
 .contact {
-  width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -192,24 +187,45 @@ a:hover {
 }
 
 /*--------------------------------------------------------------------*/
-.nav {
-  overflow: hidden;
-  padding: 5px;
-  height: 100%;
+/* скрываем чекбокс */
+#menu__toggle {
+  opacity: 0;
+}
+/* стилизуем кнопку */
+.menu__btn {
+  display: flex; /* используем flex для центрирования содержимого */
+  align-items: center; /* центрируем содержимое кнопки */
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+/* добавляем "гамбургер" */
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
   width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #fff;
+  height: 2px;
+  background-color: #616161;
 }
-.container__nav {
-  overflow: hidden;
-  height: 100%;
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.menu__btn > span::before {
+  content: "";
+  top: -8px;
 }
+.menu__btn > span::after {
+  content: "";
+  top: 8px;
+}
+.nav__content {
+  display: flex;
+  padding: 5px;
+}
+/*------------------------------------------------*/
 .nav__list {
   overflow: hidden;
   padding: 15px;
@@ -226,7 +242,7 @@ a:hover {
   color: black;
   padding: 10px 10px 5px 10px;
 }
-..nav__item {
+.nav__item {
 }
 .active {
   color: blue;
