@@ -43,7 +43,7 @@ p {
   overflow: hidden;
   width: 95%;
   max-width: 1700px;
-  padding: 0px 15px;
+  padding: 0px 6px;
   margin: 0 auto;
 }
 
@@ -79,9 +79,9 @@ a:hover {
 .header__container-1 {
   overflow: hidden;
   height: 100%;
-  width: 85%;
+  width: 80%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: center;
 }
 .header__item {
@@ -113,16 +113,17 @@ a:hover {
   justify-content: space-between;
 }
 .header__container-2 {
-  position: relative;
   overflow: hidden;
   width: 85%;
   height: 100%;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 .logo {
+  width: 30%;
+  height: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -158,16 +159,20 @@ a:hover {
   font-size: 18px;
 }
 .search {
+  overflow: hidden;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+  width: 30%;
+  height: 100%;
 }
 .search__text {
-  margin-left: 50px;
   width: 100%;
   height: 45px;
 }
 .contact {
+  width: 30%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -187,45 +192,17 @@ a:hover {
 }
 
 /*--------------------------------------------------------------------*/
-/* скрываем чекбокс */
-#menu__toggle {
-  opacity: 0;
-}
-/* стилизуем кнопку */
-.menu__btn {
-  display: flex; /* используем flex для центрирования содержимого */
-  align-items: center; /* центрируем содержимое кнопки */
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  width: 26px;
-  height: 26px;
-  cursor: pointer;
-  z-index: 1;
-}
-/* добавляем "гамбургер" */
-.menu__btn > span,
-.menu__btn > span::before,
-.menu__btn > span::after {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  background-color: #616161;
-}
-.menu__btn > span::before {
-  content: "";
-  top: -8px;
-}
-.menu__btn > span::after {
-  content: "";
-  top: 8px;
-}
-.nav__content {
-  display: flex;
+.nav {
+  overflow: hidden;
   padding: 5px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
 }
-/*------------------------------------------------*/
 .nav__list {
   overflow: hidden;
   padding: 15px;
@@ -567,10 +544,11 @@ a:hover {
   display: flex;
   justify-content: center;
   overflow: hidden;
-  height: 300px;
-  width: 600px;
+  height: 100%;
+  width: 100%;
 }
 .infa__pic-i {
+  padding: 5px;
   height: 100%;
   width: 100%;
   object-fit: contain;
@@ -659,8 +637,7 @@ a:hover {
 }
 /*------------------------------------------------------------------------------*/
 .galary {
-  display: flex;
-  overflow: auto;
+  overflow: hidden;
   height: 100%;
   width: 100%;
 }
@@ -674,7 +651,7 @@ a:hover {
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 }
 .galary__list {
@@ -710,7 +687,8 @@ a:hover {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin-top: 20px;
-  height: 60%;
+  overflow: hidden;
+  height: 50%;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -721,16 +699,16 @@ a:hover {
 .container__footer {
   overflow: hidden;
   height: 100%;
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 .inf__text-f {
-  overflow: hidden;
+  overflow: auto;
   font-size: 20px;
-  padding: 5px;
-  height: 80%;
+  padding: 50px;
+  height: 100%;
   width: 35%;
   display: flex;
   flex-direction: column;
@@ -738,7 +716,6 @@ a:hover {
   align-items: flex-start;
 }
 .contact__title-f {
-  font-size: 30px;
 }
 .contact__adress-f {
 }
@@ -772,17 +749,18 @@ a:hover {
 .socseti__pic {
 }
 .help {
-  overflow: hidden;
+  overflow: auto;
   font-size: 20px;
-  height: 80%;
+  height: 100%;
   width: 25%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  padding: 40px;
 }
+
 .help__title {
-  font-size: 30px;
 }
 .help__list {
 }
@@ -805,26 +783,26 @@ a:hover {
   width: 40%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
 }
 .write__form {
-  overflow: hidden;
+  padding: 10px;
+  overflow: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  height: 85%;
+  height: 100%;
 }
 .write__title {
-  font-size: 30px;
 }
 .input-f {
   margin: 5px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   -webkit-border-radius: 2%;
   -moz-border-radius: 2%;
   -ms-border-radius: 2%;
@@ -869,7 +847,7 @@ a:hover {
 .container__footer-bot {
   overflow: hidden;
   height: 100%;
-  width: 90%;
+  width: 100%;
 }
 .footer-bot__text {
   display: flex;

@@ -1,42 +1,14 @@
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
   .container {
-    max-width: 1024px;
-    flex-wrap: wrap;
-    display: flex;
-  }
-  .header__item {
-    font-size: 15px;
-  }
-  .contact__phone {
-    display: none;
-  }
-  .contact__text {
-    display: none;
-  }
-  .search {
-    display: none;
-  }
-  .search__text {
-    display: none;
-  }
-  .nav__link {
-    display: none;
   }
 }
 @media (max-width: 990px) {
   .container {
-    max-width: 990px;
-    flex-wrap: wrap;
-  }
-  .header__item {
-    display: flex;
-    flex-wrap: wrap;
+    max-width: 750px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .container {
-    width: 100%;
-    max-width: none;
-    flex-wrap: wrap;
+    max-width: 970px;
   }
 }
